@@ -1,2 +1,28 @@
 *{
+	border: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: gainsboro;
+}
+.maincontent{
+	width: 80%;
+	margin: auto;
+	height: 100vh;
+	
+	
+}
+.leftsidebar{
+	width: 24%;
+	margin-right: 2%;
+	background-color: red;
+	height: 100vh;
+	float: left;
+}
+.rightsidebar{
+	float: left;
+	width: 74%;
+	background-color: yellow;
+	height: 100vh;
 }
