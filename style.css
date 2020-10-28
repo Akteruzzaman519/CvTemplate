@@ -45,8 +45,36 @@ img{
 	width: 29%;
 	margin-right: 2%;
 	background-color: white;
-
-	float: left;
+    float: left;
+}
+.padd{
+    padding-right: 30px;
+}
+.progessbar{
+    position: relative;
+}
+.progess{
+    width: 100%;
+    background-color: gray;
+    border-radius: 10px;
+    margin: 20px 0;
+    height: 20px;
+    position: relative;
+}
+.pro{
+    width: 90%;
+    background-color:cyan;
+    border-radius: 10px;
+    z-index: 1;
+    height: 20px;
+    top: 0;
+    position: absolute;
+}
+.p{
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+    left: 50px;
 }
 .rightsidebar{
 	float: left;
