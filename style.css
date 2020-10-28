@@ -2,25 +2,55 @@
 	border: 0;
 	padding: 0;
 	box-sizing: border-box;
+    text-decoration: none;
 }
 body{
 	background-color: gainsboro;
 }
+.image{
+    width: 100%;
+    height: auto;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.name{
+    padding: 10px;
+    font-size: 30px;
+    color: black;
+    font-family:monospace;
+    text-transform: uppercase;
+    
+}
+.address{
+    padding: 10px;
+}
+.address a{
+    display: block;
+    padding-bottom: 10px;
+    font-size: 17px;
+}
+.address a:last-child{
+    padding-bottom: none;
+}
+.address a i{
+    padding-right: 10px
+}
 .maincontent{
 	width: 80%;
 	margin: auto;
-	height: 100vh;
 }
 .leftsidebar{
 	width: 29%;
 	margin-right: 2%;
 	background-color: white;
-	height: 100vh;
+
 	float: left;
 }
 .rightsidebar{
 	float: left;
 	width: 69%;
 	background-color: white;
-	height: 100vh;
+
 }
